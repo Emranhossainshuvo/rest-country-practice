@@ -8,4 +8,6 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: rgba(128, 0, 128, 0.252);
+    color: rgb(83, 75, 75);
 }

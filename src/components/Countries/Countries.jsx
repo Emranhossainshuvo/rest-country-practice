@@ -13,11 +13,13 @@ const Countries = () => {
     }, [])
 
     return (
-        <div>
-            <h3>Countries: {countries.length}</h3>            
+        <div >
+            <h3 className="text-center text-5xl font-semibold mb-5">Countries: {countries.length}</h3>            
+            <div className="md:grid md:grid-cols-3 md:gap-3 container mx-auto">
             {
                 countries.map(country => <Country key={country.cca3} country={country}></Country>)
             }
+            </div>
         </div>
     );
 };
